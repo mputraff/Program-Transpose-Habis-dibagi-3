@@ -15,6 +15,7 @@ Saya membuat 2 program yaitu program transpose array dan program bilangan yang h
 
 <b>PROGRAM TRANSPOSE ARRAY<b>
 
+```
 #include <iostream>
 <br> #include <iomanip>
 <br> using namespace std;
@@ -70,9 +71,10 @@ int main() {
 	
 	
 }
-
+```
 	
 <b>PROGRAM ARRAY HABIS DI BAGI 3,5,7<b>
+```
 <br>#include <iostream>
 <br>#include <iomanip>
 <br>using namespace std;
@@ -125,7 +127,7 @@ int main(){
     cout << endl;
     return 0;
 }
-	
+```	
 
 ## Output
 <b>PROGRAM TRANSPOSE ARRAY<b>
