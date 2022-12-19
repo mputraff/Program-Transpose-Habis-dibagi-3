@@ -76,56 +76,46 @@ int main() {
 <b>PROGRAM ARRAY HABIS DI BAGI 3,5,7<b>
 ```
 <br>#include <iostream>
-<br>#include <iomanip>
 <br>using namespace std;
-	
-int main(){
 
-    cout<<endl;
-	cout<<"---------------------------------------------"<<endl;
-	cout<<"Nama 		: Mohammad Putra Fauzan Fatah"<<endl;
-	cout<<"NIM		: 1227050075 "<<endl;
-	cout<<"Jurusan 	: Teknik Informatika"<<endl;
-	cout<<"---------------------------------------------"<<endl;
-	cout<<endl;
-	cout<<"Program Transpose Array 2 Dimensi"<<endl;
- 	int arr[100][100], jumlahBaris, jumlahKolom, i, j, baris, kolom;
+const int MAX_ROWS = 100;
+const int MAX_COLS = 100;
 
-    cout<<"Input jumlah baris: "; cin>>jumlahBaris;
-    cout<<"Input jumlah kolom: "; cin>>jumlahKolom;
-    cout << endl;
+int main()
+{
+  cout << "^Nama  : Mohamamd Putra Fauzan Fatah^" << endl;
+  cout << "^NIM   : 1227050075^ " << endl;
+  cout << "^Kelas : IF-B^" << endl;
+  cout << "==========================================" << endl;
+  cout << "^Program C++ Input Matriks 2 Dimensi No.2^" << endl;
+  cout << "==========================================" << endl;
+  cout << endl;
+  
+  int array[MAX_ROWS][MAX_COLS];
+  int rows, cols;
 
-    for(i = 0; i < jumlahBaris; i++){
-        for(j = 0; j < jumlahKolom; j++){
-            cout << "Baris " <<i+1<<", kolom "<<j+1<< " = ";
-            cin >> arr[i][j];
-        }
-        cout << endl;
+  cout << "Masukkan jumlah baris array: ";
+  cin >> rows;
+  cout << "Masukkan jumlah kolom array: ";
+  cin >> cols;
+
+  cout << "Masukkan elemen-elemen array: " << endl;
+  for (int i = 0; i < rows; i++) {
+    for (int j = 0; j < cols; j++) {
+      cin >> array[i][j];
     }
+  }
 
-    cout << "Hasil input nilai : " << endl;
-
-    for(i = 0; i < jumlahBaris ; i++){
-    for(j = 0; j < jumlahKolom; j++){
-        cout << setw(3) << arr[i][j] << " ";
+  cout << "Bilangan yang habis dibagi 3, 5, dan 7: " << endl;
+  for (int i = 0; i < rows; i++) {
+    for (int j = 0; j < cols; j++) {
+      if (array[i][j] % 3 == 0 && array[i][j] % 5 == 0 && array[i][j] % 7 == 0) {
+        cout << array[i][j] << " ";
+      }
     }
-    cout << endl;
-    }
+  }
 
-    cout << "\nHasil bilangan yang tidak bisa dibagi 3,5,7 : " << endl;
-
-    for(i = 0; i < jumlahBaris ; i++){
-    for(j = 0; j < jumlahKolom; j++){
-        if(arr[i][j] % 3 == 0 || arr[i][j] % 5 || arr[i][j] % 7 == 0){
-        cout << setw(3) << arr[i][j] << " ";
-        }
-    }
-    cout << endl;
-    }
-
-    
-    cout << endl;
-    return 0;
+  return 0;
 }
 ```	
 
@@ -136,3 +126,4 @@ int main(){
 
 <b>PROGRAM ARRAY HABIS DI BAGI 3,5,7<b>
 
+<img width="681" alt="Array2" src="https://user-images.githubusercontent.com/90183052/208386280-ebfa1ecc-1d90-46e2-8d44-c691f96c3b4e.PNG">
