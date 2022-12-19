@@ -80,3 +80,4 @@ int main() {
 <img width="675" alt="Transpose" src="https://user-images.githubusercontent.com/90183052/208379003-99597e9a-cd15-445b-b856-7b4c82409e53.PNG">
 
 <b>PROGRAM ARRAY HABIS DI BAGI 3,5,7<b>
+
