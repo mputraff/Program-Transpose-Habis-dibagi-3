@@ -1,7 +1,7 @@
 # Ujian Akhir Semester 
 <br>Mata Kuliah 	:
-<br> Nama		<br>:
-<br>NIM		<br>:	
+<br> Nama		/t:
+<br>NIM		/t:	
 <br>Jurusan		:[Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
 
 ## Deskripsi Umum
