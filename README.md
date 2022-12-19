@@ -12,6 +12,9 @@ Misalnya, sebuah kereta terdiri dari beberapa gerbong yang menyimpan barang bawa
 Saya membuat 2 program yaitu program transpose array dan program bilangan yang habis dibagi 3.
 <br> Berikut adalah code atau syntax nya.
 ## Source Code
+
+<b>PROGRAM TRANSPOSE ARRAY<b>
+
 #include <iostream>
 <br> #include <iomanip>
 <br> using namespace std;
@@ -69,4 +72,11 @@ int main() {
 }
 
 	
+<b>PROGRAM ARRAY HABIS DI BAGI 3,5,7<b>
+	
 ## Output
+<b>PROGRAM TRANSPOSE ARRAY<b>
+	
+<img width="675" alt="Transpose" src="https://user-images.githubusercontent.com/90183052/208379003-99597e9a-cd15-445b-b856-7b4c82409e53.PNG">
+
+<b>PROGRAM ARRAY HABIS DI BAGI 3,5,7<b>
